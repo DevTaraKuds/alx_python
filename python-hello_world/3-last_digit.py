@@ -13,4 +13,4 @@ else:
     valueText = "and is 0"
 
 
-print("Last digit of", number, "is", lastDigit, valueText, end="\n" )
+print("Last digit of", number, "is", lastDigit, valueText, end="\n")
