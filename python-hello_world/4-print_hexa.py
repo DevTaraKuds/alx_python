@@ -4,5 +4,5 @@
 
 for number in range(99):
     # print("{:<3} = {:02X}".format(number, number))
-    print("{:<3} = {}".format(number, hex(number)))
+    print("{:<3} = {}".format(number, str(hex(number))))
 
