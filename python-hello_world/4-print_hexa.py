@@ -1,2 +1,3 @@
 for i in range(0,98):
-    print(i, "=", hex(i))
+    # print(str({}).format((hex(i))))
+    print(i, "=", str({}).format(hex(i)))
