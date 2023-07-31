@@ -9,7 +9,8 @@ if lastDigit > 5:
     valueText = "and is greater than 5"
 elif lastDigit == 0 :
     valueText = "and is 0"
-else:
+elif lastDigit < 0:
+    lastDigit = -lastDigit
     valueText = "and is less than 6 and not 0"
 
 
